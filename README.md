@@ -86,6 +86,7 @@ The system uses a **Hybrid Recommendation Approach**:
 ### 📌 Hybrid Score
 Hybrid Score =
 0.7 × Similarity Score
+
 0.3 × Popularity Score
 
 
@@ -139,9 +140,13 @@ Automatic redeployment on updates
 online-course-recommendation-system/
 │
 ├── app.py
+
 ├── hybrid_recommendation_model.joblib
+
 ├── dataset.xlsx
+
 ├── requirements.txt
+
 └── README.md
 
 ---
